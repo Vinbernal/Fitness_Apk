@@ -24,12 +24,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//Code for opening another activity
         imgfood = (ImageButton) findViewById(R.id.btnfood);
         imgfood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intloadnewact = new Intent(MainActivity.this, MainActivity2.class);
-                startActivity(intloadnewact);
+                Intent loadnewact = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(loadnewact);
             }
         });
 
@@ -37,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         imgmusic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intloadnewact = new Intent(MainActivity.this, Music.class);
-                startActivity(intloadnewact);
+                Intent actnew = new Intent(MainActivity.this, Music.class);
+                startActivity(actnew);
             }
         });
 
@@ -49,6 +50,24 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intloadnewact = new Intent(MainActivity.this, hamburger.class);
                 startActivity(intloadnewact);
+            }
+        });
+
+        imgworkout = (ImageButton) findViewById(R.id.btnworkout);
+        imgworkout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intnewact = new Intent(MainActivity.this, Workout.class);
+                startActivity(intnewact);
+            }
+        });
+
+        imgplanner = (ImageButton) findViewById(R.id.btnplanner);
+        imgplanner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newact = new Intent(MainActivity.this, Planner.class);
+                startActivity(newact);
             }
         });
 
