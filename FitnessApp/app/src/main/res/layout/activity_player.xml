@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".PlayerActivity">
+
+
+  <ImageButton
+      android:id="@+id/btnhamburger6"
+      android:layout_width="78dp"
+      android:layout_height="67dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="14dp"
+      android:layout_marginLeft="14dp"
+      android:layout_marginTop="11dp"
+      android:layout_marginBottom="10dp"
+      android:background="#57E1B1"
+      android:scaleType="fitCenter"
+      android:tint="#FF7F50"
+      app:srcCompat="@drawable/ham1" />
+
+  <ImageView
+      android:id="@+id/headphoens"
+      android:layout_width="230dp"
+      android:layout_height="247dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="67dp"
+      android:layout_marginLeft="67dp"
+      android:layout_marginTop="124dp"
+      android:layout_marginEnd="75dp"
+      android:layout_marginRight="75dp"
+      android:layout_marginBottom="258dp"
+      android:src="@drawable/headphones" />
+
+  <TextView
+      android:id="@+id/songName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/headphoens"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="442dp"
+      android:layout_marginBottom="8dp"
+      android:gravity="center"
+      android:text="Song Name"
+      android:textSize="20sp" />
+
+  <SeekBar
+      android:id="@+id/mSeekBarTime"
+      android:layout_width="320dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/songName"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="30dp" />
+
+  <LinearLayout
+      android:id="@+id/linearlayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/mSeekBarTime"
+      android:layout_marginTop="30dp"
+      android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/previous"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/previous" />
+
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/play" />
+
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/next" />
+
+  </LinearLayout>
+
+</RelativeLayout>

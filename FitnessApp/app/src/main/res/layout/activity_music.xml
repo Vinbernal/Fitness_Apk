@@ -22,4 +22,13 @@
         android:scaleType="fitCenter"
         android:tint="#FF7F50"
         app:srcCompat="@drawable/ham1" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="395dp"
+        android:layout_height="581dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:cacheColorHint="#FFFFFF" />
+
 </RelativeLayout>
