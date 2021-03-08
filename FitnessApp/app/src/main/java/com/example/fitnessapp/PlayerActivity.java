@@ -150,7 +150,7 @@ public class PlayerActivity extends AppCompatActivity {
 
 
         // if you want the the mediaplayer to go to next song after its finished playing one song its optional
-        /*mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+        mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
                 play.setImageResource(R.drawable.play);
