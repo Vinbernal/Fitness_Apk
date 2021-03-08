@@ -164,7 +164,7 @@ public class PlayerActivity extends AppCompatActivity {
                 initializeMusicPlayer(currentPosition);
 
             }
-        });*/
+        });
 
 
         // working on seekbar
