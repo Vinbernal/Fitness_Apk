@@ -12,6 +12,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -32,12 +33,23 @@ public class PlayerActivity extends AppCompatActivity {
     static MediaPlayer mMediaPlayer; // if not static then two or more than two songs will be played at the same time
     TextView songName;
     ArrayList<File> musicList;
-
+    ImageButton imghome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player);
+
+        imghome = (ImageButton) findViewById(R.id.btnhamburger2);
+        imghome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intloadnewact = new Intent(PlayerActivity.this, MainActivity.class);
+                startActivity(intloadnewact);
+            }
+        });
+
+
         // casting views
 
         prev = findViewById(R.id.previous);
