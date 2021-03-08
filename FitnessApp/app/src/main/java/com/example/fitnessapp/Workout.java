@@ -16,7 +16,14 @@ public class Workout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workout);
 
-
+        imghome = (ImageButton) findViewById(R.id.btnhamburger2);
+        imghome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intloadnewact = new Intent(Workout.this, MainActivity.class);
+                startActivity(intloadnewact);
+            }
+        });
 
     }
 }

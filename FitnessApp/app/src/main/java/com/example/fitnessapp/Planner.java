@@ -16,6 +16,14 @@ public class Planner extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_planner);
 
+        imghome = (ImageButton) findViewById(R.id.btnhamburger2);
+        imghome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intloadnewact = new Intent(Planner.this, MainActivity.class);
+                startActivity(intloadnewact);
+            }
+        });
 
     }
 }

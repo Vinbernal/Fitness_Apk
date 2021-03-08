@@ -43,6 +43,15 @@ public class Music extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_music);
 
+        imghome = (ImageButton) findViewById(R.id.btnhamburger2);
+        imghome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intloadnewact = new Intent(Music.this, MainActivity.class);
+                startActivity(intloadnewact);
+            }
+        });
+
         // casting listview
         allMusicList = findViewById(R.id.listView);
 
