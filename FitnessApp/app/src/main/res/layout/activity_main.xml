@@ -14,13 +14,14 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="165dp"
-        android:layout_marginRight="165dp"
-        android:layout_marginBottom="2dp"
-        android:background="@drawable/a1"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="168dp"
+        android:layout_marginBottom="0dp"
+        android:background="?android:selectableItemBackground"
+
         android:contentDescription="TODO"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/musica" />
+        app:srcCompat="@drawable/music" />
 
     <ImageButton
         android:id="@+id/btnfood"
@@ -29,12 +30,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="241dp"
-        android:layout_marginRight="241dp"
-        android:layout_marginBottom="1dp"
-        android:background="@drawable/a3"
+        android:layout_marginEnd="246dp"
+        android:layout_marginRight="246dp"
+        android:layout_marginBottom="0dp"
+        android:background="?android:selectableItemBackground"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/foodie1" />
+        app:srcCompat="@drawable/foodie" />
 
     <ImageButton
 
@@ -46,10 +47,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="90dp"
         android:layout_marginRight="90dp"
-        android:layout_marginBottom="2dp"
-        android:background="#57E1B1"
+        android:layout_marginBottom="0dp"
+        android:background="?android:selectableItemBackground"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/workout" />
+        app:srcCompat="@drawable/workoutt" />
 
     <ImageButton
         android:id="@+id/btnplanner"
@@ -58,12 +59,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="2dp"
-        android:background="#57E1B1"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="0dp"
+        android:background="?android:selectableItemBackground"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/plan1jpg" />
+        app:srcCompat="@drawable/planner" />
 
     <ImageButton
         android:id="@+id/btnhome"
@@ -75,9 +76,9 @@
         android:layout_marginEnd="325dp"
         android:layout_marginRight="325dp"
         android:layout_marginBottom="0dp"
-        android:background="@drawable/a3"
+        android:background="?android:selectableItemBackground"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/homes1" />
+        app:srcCompat="@drawable/homes" />
 
     <ImageButton
         android:id="@+id/btnhamburger"
