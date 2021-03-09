@@ -20,12 +20,21 @@
         </intent-filter>
 
         </activity>
-        <activity android:name=".PlayerActivity"></activity>
+        <activity android:name=".PlayerActivity"
+            android:parentActivityName=".Music"/>
         <activity android:name=".hamburger" />
-        <activity android:name=".Planner" />
-        <activity android:name=".Workout" />
-        <activity android:name=".Music" />
-        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".Planner"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Workout"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Music"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity2"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
         </activity>
     </application>

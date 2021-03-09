@@ -1,6 +1,9 @@
 package com.example.fitnessapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 import android.annotation.SuppressLint;
@@ -40,14 +43,11 @@ public class PlayerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player);
 
-        imghome = (ImageButton) findViewById(R.id.btnhamburger2);
-        imghome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intloadnewact = new Intent(PlayerActivity.this, MainActivity.class);
-                startActivity(intloadnewact);
-            }
-        });
+        //action bar title AND color
+        getSupportActionBar().setTitle("Music");
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
 
         // casting views
