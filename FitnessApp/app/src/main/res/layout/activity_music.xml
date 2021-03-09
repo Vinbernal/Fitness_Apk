@@ -10,9 +10,10 @@
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="528dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="75dp"
         android:cacheColorHint="#FFFFFF" />
 
 </RelativeLayout>

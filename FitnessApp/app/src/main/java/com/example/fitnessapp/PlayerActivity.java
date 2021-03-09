@@ -36,12 +36,24 @@ public class PlayerActivity extends AppCompatActivity {
     static MediaPlayer mMediaPlayer; // if not static then two or more than two songs will be played at the same time
     TextView songName;
     ArrayList<File> musicList;
-    ImageButton imghome;
+    ImageButton imgallmusic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player);
+
+        //image button to music main
+        imgallmusic = (ImageButton) findViewById(R.id.allmusicbtn);
+        imgallmusic.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent loadnewact = new Intent(PlayerActivity.this, Music.class);
+                startActivity(loadnewact);
+            }
+        });
+
 
         //action bar title AND color
         getSupportActionBar().setTitle("Music");
