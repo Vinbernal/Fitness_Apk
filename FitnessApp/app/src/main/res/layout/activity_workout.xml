@@ -17,9 +17,9 @@
         android:layout_marginBottom="183dp"
         android:background="@drawable/gradient"
         android:text="WITH EQUIPMENT"
-        android:textSize="26dp"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
         android:textStyle="bold"
-        app:backgroundTint="@color/soft_cyan"
         app:icon="@drawable/ic_baseline_check_circle_outline_24"
         app:iconSize="@android:dimen/app_icon_size">
 
@@ -36,12 +36,11 @@
         android:background="@drawable/gradient"
         android:text="NO EQUIPMENT"
         android:textColor="#ffffff"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
-        app:backgroundTint="@color/soft_cyan"
+
         app:icon="@drawable/ic_baseline_not_interested_24"
-        app:iconSize="@android:dimen/app_icon_size"
-        app:rippleColor="#FFFFFF" />
+        app:iconSize="@android:dimen/app_icon_size" />
 
     <TextView
         android:id="@+id/textView"

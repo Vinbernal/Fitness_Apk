@@ -26,7 +26,6 @@
         <activity
             android:name=".PlayerActivity"
             android:parentActivityName=".Music" />
-        <activity android:name=".hamburger" />
         <activity
             android:name=".Planner"
             android:parentActivityName=".MainActivity" />
