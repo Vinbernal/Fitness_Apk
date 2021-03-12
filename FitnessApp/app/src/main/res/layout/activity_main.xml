@@ -55,8 +55,6 @@
             android:background="?android:selectableItemBackground"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/planner" />
-
-
     </LinearLayout>
 
 </RelativeLayout>

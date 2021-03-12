@@ -4,4 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Workout"/>
+    android:background="#ffffff"
+    tools:context=".Workout">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="346dp"
+        android:layout_height="113dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="183dp"
+        android:background="@drawable/gradient"
+        android:text="WITH EQUIPMENT"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/soft_cyan"
+        app:icon="@drawable/ic_baseline_check_circle_outline_24"
+        app:iconSize="@android:dimen/app_icon_size">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="346dp"
+        android:layout_height="113dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="328dp"
+        android:background="@drawable/gradient"
+        android:text="NO EQUIPMENT"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/soft_cyan"
+        app:icon="@drawable/ic_baseline_not_interested_24"
+        app:iconSize="@android:dimen/app_icon_size"
+        app:rippleColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="312dp"
+        android:layout_height="54dp"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="9dp"
+        android:text="Type Of Workout:"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
