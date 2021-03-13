@@ -5,14 +5,10 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.Chronometer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Workout extends AppCompatActivity {
-    private Chronometer chronometer;
-    private long pauseOffset;
-    private boolean running;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
