@@ -1,17 +1,14 @@
 package com.example.fitnessapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.media.Image;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Workout extends AppCompatActivity {
-    ImageButton imghome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +19,12 @@ public class Workout extends AppCompatActivity {
         getSupportActionBar().setTitle("Workout");
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //button to new act
 
-
+        Button button = findViewById(R.id.button1);
+        button.setOnClickListener(view -> {
+            Intent intent = new Intent(this, NoEquipment.class);
+            startActivity(intent);
+        });
     }
 }

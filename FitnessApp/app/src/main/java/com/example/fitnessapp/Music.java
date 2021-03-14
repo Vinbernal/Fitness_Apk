@@ -33,12 +33,12 @@ import java.util.ArrayList;
 
 public class Music extends AppCompatActivity {
 
-    ImageButton imghome;
 
     ListView allMusicList; // listVIEW
     ArrayAdapter<String> musicArrayAdapter; // Adapter for music list
     String songs[]; // to storage song names;
     ArrayList<File> musics;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,8 +49,6 @@ public class Music extends AppCompatActivity {
         getSupportActionBar().setTitle("Music");
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
 
         // casting listview
         allMusicList = findViewById(R.id.listView);

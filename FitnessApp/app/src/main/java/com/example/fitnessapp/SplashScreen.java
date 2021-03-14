@@ -18,8 +18,6 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
         //action bar color
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
-
 
         new Handler().postDelayed(new Runnable() {
             @Override
