@@ -7,49 +7,34 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="370dp"
-        android:layout_height="177dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="22dp"
-        android:background="@drawable/outline_button"
-        android:text="Button"
-        android:textAllCaps="false"
-        android:textSize="30dp" />
-
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="1dp">
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="5dp">
 
         <ImageButton
             android:id="@+id/btnhome"
-            android:layout_width="78dp"
-            android:layout_height="73dp"
-            android:layout_marginLeft="5dp"
-            android:background="?android:selectableItemBackground"
+            android:layout_width="72dp"
+            android:layout_height="67dp"
+            android:background="@drawable/outline_button"
             android:scaleType="centerInside"
             app:srcCompat="@drawable/homes" />
 
         <ImageButton
             android:id="@+id/btnfood"
-            android:layout_width="78dp"
-            android:layout_height="73dp"
-            android:background="?android:selectableItemBackground"
+            android:layout_width="72dp"
+            android:layout_height="67dp"
+            android:background="@drawable/outline_button"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/foodie" />
 
         <ImageButton
             android:id="@+id/btnmusic"
-            android:layout_width="78dp"
-            android:layout_height="73dp"
-            android:background="?android:selectableItemBackground"
+            android:layout_width="72dp"
+            android:layout_height="67dp"
+            android:background="@drawable/outline_button"
             android:contentDescription="TODO"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/music" />
@@ -57,19 +42,35 @@
         <ImageButton
 
             android:id="@+id/btnworkout"
-            android:layout_width="78dp"
-            android:layout_height="73dp"
-            android:background="?android:selectableItemBackground"
+            android:layout_width="72dp"
+            android:layout_height="67dp"
+            android:background="@drawable/outline_button"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/workoutt" />
 
         <ImageButton
             android:id="@+id/btnplanner"
-            android:layout_width="78dp"
-            android:layout_height="73dp"
-            android:background="?android:selectableItemBackground"
+            android:layout_width="72dp"
+            android:layout_height="67dp"
+            android:background="@drawable/outline_button"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/planner" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnreminder"
+        android:layout_width="363dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="450dp"
+        android:background="@drawable/outline2"
+        android:drawableTop="@drawable/ic_baseline_notifications_24"
+        android:paddingTop="8dp"
+        android:text="SET REMINDER HERE!"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
 
 </RelativeLayout>

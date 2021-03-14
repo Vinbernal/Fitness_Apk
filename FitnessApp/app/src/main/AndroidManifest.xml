@@ -12,23 +12,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp">
-        <activity android:name=".pushups"
-            android:parentActivityName=".NoEquipment"/>
+        <activity
+            android:name=".Reminder"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".pushups"
+            android:parentActivityName=".NoEquipment" />
         <activity
             android:name=".noequip1"
             android:parentActivityName=".NoEquipment" />
         <activity
             android:name=".NoEquipment"
             android:parentActivityName=".Workout" />
-        <activity
-            android:name=".SplashScreen"
-            android:theme="@style/Theme.FitnessApp.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".PlayerActivity"
             android:parentActivityName=".Music" />
@@ -45,10 +40,20 @@
             android:name=".MainActivity2"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.FitnessApp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <receiver android:name=".AlarmReceiver"/>
     </application>
 
 </manifest>
