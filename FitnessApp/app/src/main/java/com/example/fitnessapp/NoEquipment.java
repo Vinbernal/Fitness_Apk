@@ -5,14 +5,13 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.Chronometer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.fitnessapp.noequipworkout.squat;
+
 public class NoEquipment extends AppCompatActivity {
-    private Chronometer chronometer;
-    private long pauseOffset;
-    private boolean running;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,10 +27,16 @@ public class NoEquipment extends AppCompatActivity {
             Intent intent = new Intent(this, noequip1.class);
             startActivity(intent);
         });
-
+        //to pushups
         Button buttonpush = findViewById(R.id.button3);
         buttonpush.setOnClickListener(view -> {
             Intent intent = new Intent(this, pushups.class);
+            startActivity(intent);
+        });
+        //to squat
+        Button buttonsquat = findViewById(R.id.button4);
+        buttonsquat.setOnClickListener(view -> {
+            Intent intent = new Intent(this, squat.class);
             startActivity(intent);
         });
 
