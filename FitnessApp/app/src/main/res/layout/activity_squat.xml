@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".noequip1">
+    tools:context="noequipworkout.squat">
 
 
     <Button
@@ -14,7 +14,7 @@
         android:background="@drawable/gradient"
         android:text="START"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,13 +28,26 @@
         android:background="@drawable/gradient"
         android:text="NEXT"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.833" />
 
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient"
+        android:text="PREVIOUS"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
 
     <TextView
         android:id="@+id/textView"
@@ -51,12 +64,12 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/gifImageView"
+        android:id="@+id/gifImageView3"
         android:layout_width="402dp"
         android:layout_height="252dp"
         android:layout_marginTop="16dp"
         android:background="#FFFFFF"
-        android:src="@drawable/lunges"
+        android:src="@drawable/squat"
         app:layout_constraintBottom_toTopOf="@+id/btn1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"

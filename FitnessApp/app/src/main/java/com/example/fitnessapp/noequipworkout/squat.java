@@ -1,4 +1,4 @@
-package com.example.fitnessapp;
+package com.example.fitnessapp.noequipworkout;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -12,9 +12,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.fitnessapp.noequipworkout.squat;
+import com.example.fitnessapp.R;
+import com.example.fitnessapp.pushups;
 
-public class pushups extends AppCompatActivity {
+public class squat extends AppCompatActivity {
 
     TextView t1;
     Button b1;
@@ -23,17 +24,16 @@ public class pushups extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pushups);
+        setContentView(R.layout.activity_squat);
 
-        getSupportActionBar().setTitle("Pushup Workout");
+        getSupportActionBar().setTitle("Squat Workout");
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
 
         t1 = findViewById(R.id.textView);
         b1 = findViewById(R.id.btn1);
 //two parameter
-        countDownTimer = new CountDownTimer(26000, 1000) {
+        countDownTimer = new CountDownTimer(31000, 1000) {
             @Override
             public void onTick(long milliUntilFinished) {
                 t1.setText(milliUntilFinished/1000 + " sec left");
@@ -41,8 +41,8 @@ public class pushups extends AppCompatActivity {
             @Override
             public void onFinish() {
                 t1.setText("SET FINISHED");
-                Toast.makeText(pushups.this, "FINISH", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(pushups.this, squat.class);
+                Toast.makeText(squat.this, "FINISH", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(squat.this, pushups.class);
                 startActivity(intent);
                 finish();
 
@@ -52,21 +52,20 @@ public class pushups extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(pushups.this, "TIME START", Toast.LENGTH_SHORT).show();
+                Toast.makeText(squat.this, "TIME START", Toast.LENGTH_SHORT).show();
                 countDownTimer.start();
 
             }
         });
-        //button next to squat
+//button next to pushups
         Button next = findViewById(R.id.btn2);
         next.setOnClickListener(view -> {
-            Intent intent = new Intent(this, squat.class);
+            Intent intent = new Intent(this, pushups.class);
             startActivity(intent);
         });
-
         Button next1 = findViewById(R.id.btn3);
         next1.setOnClickListener(view -> {
-            Intent intent = new Intent(this, noequip1.class);
+            Intent intent = new Intent(this, pushups.class);
             startActivity(intent);
         });
 
