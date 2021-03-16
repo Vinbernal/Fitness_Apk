@@ -43,7 +43,7 @@ public class burpees extends AppCompatActivity {
             public void onFinish() {
                 t1.setText("SET FINISHED");
                 Toast.makeText(burpees.this, "FINISH", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(burpees.this, jumprope.class);
+                Intent intent = new Intent(burpees.this, jumpingjack.class);
                 startActivity(intent);
                 finish();
 
@@ -58,10 +58,10 @@ public class burpees extends AppCompatActivity {
 
             }
         });
-//button next to jumprope
+//button next to jumpingjack
         Button next = findViewById(R.id.btn2);
         next.setOnClickListener(view -> {
-            Intent intent = new Intent(this, jumprope.class);
+            Intent intent = new Intent(this, jumpingjack.class);
             startActivity(intent);
         });
         Button next1 = findViewById(R.id.btn3);

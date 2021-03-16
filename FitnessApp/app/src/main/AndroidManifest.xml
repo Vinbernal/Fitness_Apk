@@ -12,12 +12,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp">
-        <activity android:name=".noequipworkout.divepushups"></activity>
+        <activity
+            android:name=".noequipworkout.crosscrunches"
+            android:parentActivityName=".NoEquipment"/>
+        <activity
+            android:name=".noequipworkout.shouldertaps"
+            android:parentActivityName=".NoEquipment"/>
+        <activity
+            android:name=".noequipworkout.mountainclimber"
+            android:parentActivityName=".NoEquipment"/>
+        <activity
+            android:name=".noequipworkout.divepushups"
+            android:parentActivityName=".NoEquipment"/>
         <activity
             android:name=".noequipworkout.highknees"
             android:parentActivityName=".NoEquipment" />
         <activity
-            android:name=".noequipworkout.jumprope"
+            android:name=".noequipworkout.jumpingjack"
             android:parentActivityName=".NoEquipment" />
         <activity
             android:name=".noequipworkout.burpees"
@@ -25,7 +36,8 @@
         <activity
             android:name=".noequipworkout.Supermanplanks"
             android:parentActivityName=".NoEquipment" />
-        <activity android:name=".Day1" />
+        <activity android:name=".Day1"
+            android:parentActivityName=".MainActivity2"/>
         <activity
             android:name=".noequipworkout.squat"
             android:parentActivityName=".NoEquipment" />

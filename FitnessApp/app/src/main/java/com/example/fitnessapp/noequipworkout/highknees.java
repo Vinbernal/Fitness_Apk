@@ -64,7 +64,7 @@ public class highknees extends AppCompatActivity {
         });
         Button next1 = findViewById(R.id.btn3);
         next1.setOnClickListener(view -> {
-            Intent intent = new Intent(this, jumprope.class);
+            Intent intent = new Intent(this, jumpingjack.class);
             startActivity(intent);
         });
     }

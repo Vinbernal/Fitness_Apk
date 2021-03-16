@@ -10,8 +10,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.fitnessapp.noequipworkout.Supermanplanks;
 import com.example.fitnessapp.noequipworkout.burpees;
+import com.example.fitnessapp.noequipworkout.crosscrunches;
+import com.example.fitnessapp.noequipworkout.divepushups;
 import com.example.fitnessapp.noequipworkout.highknees;
-import com.example.fitnessapp.noequipworkout.jumprope;
+import com.example.fitnessapp.noequipworkout.jumpingjack;
+import com.example.fitnessapp.noequipworkout.mountainclimber;
+import com.example.fitnessapp.noequipworkout.shouldertaps;
 import com.example.fitnessapp.noequipworkout.squat;
 
 public class NoEquipment extends AppCompatActivity {
@@ -55,16 +59,40 @@ public class NoEquipment extends AppCompatActivity {
             Intent intent = new Intent(this, burpees.class);
             startActivity(intent);
         });
-        //to superman jumprope
+        //to superman jumpingjack
         Button jump = findViewById(R.id.button7);
         jump.setOnClickListener(view -> {
-            Intent intent = new Intent(this, jumprope.class);
+            Intent intent = new Intent(this, jumpingjack.class);
             startActivity(intent);
         });
         //to superman highknees
         Button hknees = findViewById(R.id.button8);
         hknees.setOnClickListener(view -> {
             Intent intent = new Intent(this, highknees.class);
+            startActivity(intent);
+        });
+        //to superman dive push
+        Button dive = findViewById(R.id.button9);
+        dive.setOnClickListener(view -> {
+            Intent intent = new Intent(this, divepushups.class);
+            startActivity(intent);
+        });
+        //to superman mountain climb
+        Button climb = findViewById(R.id.button10);
+        climb.setOnClickListener(view -> {
+            Intent intent = new Intent(this, mountainclimber.class);
+            startActivity(intent);
+        });
+        //to superman taps
+        Button taps = findViewById(R.id.button11);
+        taps.setOnClickListener(view -> {
+            Intent intent = new Intent(this, shouldertaps.class);
+            startActivity(intent);
+        });
+        //to superman cross crunches
+        Button cross = findViewById(R.id.button12);
+        cross.setOnClickListener(view -> {
+            Intent intent = new Intent(this, crosscrunches.class);
             startActivity(intent);
         });
 
