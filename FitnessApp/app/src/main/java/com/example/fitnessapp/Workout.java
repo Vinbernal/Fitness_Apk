@@ -26,5 +26,11 @@ public class Workout extends AppCompatActivity {
             Intent intent = new Intent(this, NoEquipment.class);
             startActivity(intent);
         });
+        Button buttonview = findViewById(R.id.button2);
+        buttonview.setOnClickListener(view -> {
+            Intent intent = new Intent(this, videoview.class);
+            startActivity(intent);
+        });
+
     }
 }

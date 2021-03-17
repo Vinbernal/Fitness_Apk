@@ -4,6 +4,7 @@
     package="com.example.fitnessapp">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,18 +13,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp">
+        <activity android:name=".yoga.yogapick"></activity>
+        <activity android:name=".yoga.yogamen" />
+        <activity android:name=".yoga.yogawomen" />
+        <activity
+            android:name=".videoview"
+            android:parentActivityName=".Workout"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".noequipworkout.crosscrunches"
-            android:parentActivityName=".NoEquipment"/>
+            android:parentActivityName=".NoEquipment" />
         <activity
             android:name=".noequipworkout.shouldertaps"
-            android:parentActivityName=".NoEquipment"/>
+            android:parentActivityName=".NoEquipment" />
         <activity
             android:name=".noequipworkout.mountainclimber"
-            android:parentActivityName=".NoEquipment"/>
+            android:parentActivityName=".NoEquipment" />
         <activity
             android:name=".noequipworkout.divepushups"
-            android:parentActivityName=".NoEquipment"/>
+            android:parentActivityName=".NoEquipment" />
         <activity
             android:name=".noequipworkout.highknees"
             android:parentActivityName=".NoEquipment" />
@@ -36,8 +44,9 @@
         <activity
             android:name=".noequipworkout.Supermanplanks"
             android:parentActivityName=".NoEquipment" />
-        <activity android:name=".Day1"
-            android:parentActivityName=".MainActivity2"/>
+        <activity
+            android:name=".Day1"
+            android:parentActivityName=".MainActivity2" />
         <activity
             android:name=".noequipworkout.squat"
             android:parentActivityName=".NoEquipment" />
