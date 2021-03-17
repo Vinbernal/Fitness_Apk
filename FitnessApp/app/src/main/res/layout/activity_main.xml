@@ -73,53 +73,5 @@
         android:textColor="@color/black"
         android:textSize="20dp" />
 
-    <Button
-        android:id="@+id/about"
-        android:layout_width="179dp"
-        android:layout_height="208dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="126dp"
-        android:layout_marginEnd="10dp"
-        android:layout_toStartOf="@+id/btn"
-        android:background="@drawable/outline3"
-        android:paddingTop="8dp"
-        android:text="ABOUT"
-        android:textColor="@color/black"
-        android:textSize="20dp" />
-
-    <Button
-        android:id="@+id/btn"
-        android:layout_width="177dp"
-        android:layout_height="209dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="125dp"
-        android:layout_marginEnd="29dp"
-        android:background="@drawable/outline3"
-        android:paddingTop="8dp"
-        android:text="EWAN KO"
-        android:textColor="@color/black"
-        android:textSize="20dp" />
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="wrap_content"
-        android:layout_height="175dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="343dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="86dp"
-        android:background="@drawable/outline3"
-        android:text="ANO BA?"
-        android:textColor="@color/black"
-        android:textSize="20dp" />
-
 
 </RelativeLayout>
