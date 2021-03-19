@@ -1,22 +1,17 @@
 package com.example.fitnessapp;
 
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
+import com.example.fitnessapp.dayfood.Day1;
 
 public class MainActivity2 extends AppCompatActivity implements View.OnClickListener {
-
-    ImageButton imghome;
 
     public CardView card1;
 
@@ -40,7 +35,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
 
 
         //action bar title AND color
-        getSupportActionBar().setTitle("Food");
+        getSupportActionBar().setTitle("30 Day Food Planner");
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -54,7 +49,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
 
         switch (v.getId()){
             case R.id.c1:
-                i = new Intent( this,Day1.class);
+                i = new Intent( this, Day1.class);
                 startActivity(i);
                 break;
 

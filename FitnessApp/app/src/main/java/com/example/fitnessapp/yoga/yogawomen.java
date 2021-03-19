@@ -1,5 +1,7 @@
 package com.example.fitnessapp.yoga;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,5 +14,11 @@ public class yogawomen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yogawomen);
+
+        getSupportActionBar().setTitle("Women Yoga Workout");
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
     }
 }

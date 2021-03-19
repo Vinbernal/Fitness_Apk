@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 //title and color of bar
-        getSupportActionBar().setTitle("Fitness App ");
+        getSupportActionBar().setTitle("Workout Rhythm ");
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
 
 

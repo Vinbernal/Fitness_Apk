@@ -13,9 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp">
-        <activity android:name=".yoga.yogapick"></activity>
-        <activity android:name=".yoga.yogamen" />
-        <activity android:name=".yoga.yogawomen" />
+        <activity
+            android:name=".yoga.yogapick"
+            android:parentActivityName=".Workout"/>
+        <activity android:name=".yoga.yogamen"
+            android:parentActivityName=".yoga.yogapick"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".yoga.yogawomen"
+            android:parentActivityName=".yoga.yogapick"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".videoview"
             android:parentActivityName=".Workout"
@@ -45,7 +51,7 @@
             android:name=".noequipworkout.Supermanplanks"
             android:parentActivityName=".NoEquipment" />
         <activity
-            android:name=".Day1"
+            android:name=".dayfood.Day1"
             android:parentActivityName=".MainActivity2" />
         <activity
             android:name=".noequipworkout.squat"

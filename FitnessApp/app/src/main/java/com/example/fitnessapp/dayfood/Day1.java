@@ -1,8 +1,10 @@
-package com.example.fitnessapp;
+package com.example.fitnessapp.dayfood;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.example.fitnessapp.R;
 
 public class Day1 extends AppCompatActivity {
 

@@ -8,6 +8,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.fitnessapp.yoga.yogapick;
+
 public class Workout extends AppCompatActivity {
 
     @Override
@@ -29,6 +31,12 @@ public class Workout extends AppCompatActivity {
         Button buttonview = findViewById(R.id.button2);
         buttonview.setOnClickListener(view -> {
             Intent intent = new Intent(this, videoview.class);
+            startActivity(intent);
+        });
+
+        Button yogaworkout = findViewById(R.id.button3);
+        yogaworkout.setOnClickListener(view -> {
+            Intent intent = new Intent(this, yogapick.class);
             startActivity(intent);
         });
 
