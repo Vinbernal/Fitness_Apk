@@ -14,14 +14,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp">
         <activity
+            android:name=".yoga.aboutus"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".yoga.yogapick"
-            android:parentActivityName=".Workout"/>
-        <activity android:name=".yoga.yogamen"
+            android:parentActivityName=".Workout" />
+        <activity
+            android:name=".yoga.yogamen"
             android:parentActivityName=".yoga.yogapick"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".yoga.yogawomen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".yoga.yogawomen"
             android:parentActivityName=".yoga.yogapick"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".videoview"
             android:parentActivityName=".Workout"

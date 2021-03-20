@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/soft_cyan"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="fill_vertical"
+        android:text="ABOUT US"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat"
+        android:background="@color/soft_cyan"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <ScrollView
+        android:layout_width="379dp"
+        android:layout_height="255dp"
+        android:layout_gravity="center"
+        tools:ignore="ScrollViewCount">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg3"
+            android:text="                    Workout Rhythm is a fitness app, here you can  play your favourite music while doing  some workout, we also includes 30 minutes workout and Yoga video for separate gender. It also provides 30 day meal plan for your diet and for better result and healthy body. Theres no need to use workout equipment, because we provides free workout with no equipment to use. Completely free theres no need to pay for subscription. Just stick cardio exercise, and Yoga workout for men and women.\n\n\n  \n                             FEATURES                           \n -Customize and set the time of your workout reminder \n -30 day meal plan for healthy body \n -Music to boost your energy \n -No equipment workouts for beginner \n -30 Minutes Fat Burning Workout Video \n-Yoga workout video for men and women \n -Type your Plan throughout the day in Planner"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="fill_vertical"
+        android:text="DEVELOPER"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat"
+        android:background="@color/soft_cyan"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <ScrollView
+        android:layout_width="379dp"
+        android:layout_height="255dp"
+        android:layout_gravity="center"
+        tools:ignore="ScrollViewCount">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="90dp"
+                android:text="MARVIN BERNAL"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:paddingTop="5dp"
+                android:layout_width="375dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ic_baseline_person_24"
+                tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:paddingTop="10dp"
+                android:text="MARJORIE FREZNOSA"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:paddingTop="5dp"
+                android:layout_width="375dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ic_baseline_person_24"
+                tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="90dp"
+                android:paddingTop="10dp"
+                android:text="GERALD SIARON"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:paddingTop="5dp"
+                android:layout_width="375dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ic_baseline_person_24"
+                tools:ignore="VectorDrawableCompat" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

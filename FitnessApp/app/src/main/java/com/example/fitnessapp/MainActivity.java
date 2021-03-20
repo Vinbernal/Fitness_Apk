@@ -10,8 +10,11 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.fitnessapp.yoga.aboutus;
+
 public class MainActivity extends AppCompatActivity {
 
+    ImageButton imgaboutus;
     ImageButton imgfood;
     ImageButton imgmusic;
     ImageButton imgworkout;
@@ -70,8 +73,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(newact);
             }
         });
-//
-
+        imgaboutus = (ImageButton) findViewById(R.id.imageButton);
+        imgaboutus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newts1 = new Intent(MainActivity.this, aboutus.class);
+                startActivity(newts1);
+            }
+        });
 
     }
 }
