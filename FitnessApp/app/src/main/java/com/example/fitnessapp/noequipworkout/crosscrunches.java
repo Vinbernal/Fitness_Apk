@@ -13,7 +13,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.fitnessapp.R;
-import com.example.fitnessapp.noequip1;
 
 public class crosscrunches extends AppCompatActivity {
 

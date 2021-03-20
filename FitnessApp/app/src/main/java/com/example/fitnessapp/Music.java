@@ -1,16 +1,9 @@
 package com.example.fitnessapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.Manifest;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageButton;
-
-import android.Manifest;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
@@ -28,7 +21,6 @@ import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 
 import java.io.File;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Music extends AppCompatActivity {
@@ -66,7 +58,7 @@ public class Music extends AppCompatActivity {
                 }
 
                 // here you are passing songs in the adapter;
-                musicArrayAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, songs);
+                musicArrayAdapter = new ArrayAdapter<>(getApplicationContext(), R.layout.row, songs);
                 //setting the adapter on listview
 
                 allMusicList.setAdapter(musicArrayAdapter);

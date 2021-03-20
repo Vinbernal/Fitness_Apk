@@ -1,5 +1,7 @@
 package com.example.fitnessapp.dayfood;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,5 +14,10 @@ public class Day1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_day1);
+
+        getSupportActionBar().setTitle("Day 1 ");
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 }

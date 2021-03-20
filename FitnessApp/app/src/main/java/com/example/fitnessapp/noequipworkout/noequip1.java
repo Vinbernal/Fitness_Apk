@@ -1,4 +1,4 @@
-package com.example.fitnessapp;
+package com.example.fitnessapp.noequipworkout;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -11,6 +11,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.fitnessapp.R;
 
 public class noequip1 extends AppCompatActivity {
 

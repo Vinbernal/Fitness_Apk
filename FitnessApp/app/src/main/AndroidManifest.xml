@@ -60,10 +60,10 @@
             android:name=".Reminder"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".pushups"
+            android:name=".noequipworkout.pushups"
             android:parentActivityName=".NoEquipment" />
         <activity
-            android:name=".noequip1"
+            android:name=".noequipworkout.noequip1"
             android:parentActivityName=".NoEquipment" />
         <activity
             android:name=".NoEquipment"

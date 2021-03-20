@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg3"
     tools:context=".MainActivity">
 
 
@@ -40,7 +41,6 @@
             app:srcCompat="@drawable/music" />
 
         <ImageButton
-
             android:id="@+id/btnworkout"
             android:layout_width="72dp"
             android:layout_height="67dp"
@@ -69,9 +69,18 @@
         android:background="@drawable/outline3"
         android:drawableTop="@drawable/ic_baseline_notifications_24"
         android:paddingTop="8dp"
-        android:text="SET REMINDER HERE!"
-        android:textColor="@color/black"
-        android:textSize="20dp" />
+        android:text="SET REMINDER HERE"
+        android:textColor="@color/white"
+        android:textSize="28dp" />
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="30dp">
+
+    </ListView>
 
 
 </RelativeLayout>

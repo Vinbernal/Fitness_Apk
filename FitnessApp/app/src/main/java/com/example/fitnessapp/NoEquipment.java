@@ -15,6 +15,8 @@ import com.example.fitnessapp.noequipworkout.divepushups;
 import com.example.fitnessapp.noequipworkout.highknees;
 import com.example.fitnessapp.noequipworkout.jumpingjack;
 import com.example.fitnessapp.noequipworkout.mountainclimber;
+import com.example.fitnessapp.noequipworkout.noequip1;
+import com.example.fitnessapp.noequipworkout.pushups;
 import com.example.fitnessapp.noequipworkout.shouldertaps;
 import com.example.fitnessapp.noequipworkout.squat;
 

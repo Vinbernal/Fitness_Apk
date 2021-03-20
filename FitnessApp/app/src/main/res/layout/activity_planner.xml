@@ -4,32 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg3"
     tools:context=".Planner">
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/textview"
-        android:text="My PLanner"
-        android:textSize="32dp"
-        android:textStyle="bold"
-        android:textColor="#000"
+        android:layout_width="325dp"
+        android:layout_height="87dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:gravity="fill_vertical"
+        android:text="MY PLANNER"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="504dp"
         android:layout_below="@+id/textview"
-        android:nestedScrollingEnabled="true"/>
+        android:layout_marginTop="-2dp"
+        android:nestedScrollingEnabled="true" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:id="@+id/fab"
-        android:src="@drawable/ic_baseline_add_24"/>
-
-
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/ic_baseline_add_24"
+        app:backgroundTint="@color/soft_cyan" />
 
 
 </RelativeLayout>
