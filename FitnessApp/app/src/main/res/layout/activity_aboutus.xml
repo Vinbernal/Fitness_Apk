@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="60dp"
                 android:paddingTop="10dp"
-                android:text="MARJORIE FREZNOSA"
+                android:text="MARJORIE FRESNOZA"
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 tools:ignore="HardcodedText" />

@@ -13,9 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp">
+        <activity android:name=".dayfood.Day5"></activity>
+        <activity android:name=".dayfood.Day4" />
+        <activity android:name=".dayfood.Day3" />
+        <activity android:name=".dayfood.Day2" />
         <activity
             android:name=".yoga.aboutus"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".yoga.yogapick"
             android:parentActivityName=".Workout" />
