@@ -9,6 +9,7 @@
 
 
     <LinearLayout
+        android:id="@+id/linlayout"
         android:layout_width="wrap_content"
         android:layout_height="67dp"
         android:layout_alignParentBottom="true"
@@ -61,7 +62,6 @@
         android:id="@+id/btnreminder"
         android:layout_width="363dp"
         android:layout_height="100dp"
-        android:layout_above="@+id/imageButton"
         android:layout_alignParentTop="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="15dp"
@@ -74,32 +74,19 @@
         android:textColor="@color/white"
         android:textSize="28dp" />
 
-
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="358dp"
-        android:layout_height="194dp"
-        android:layout_above="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_above="@+id/linlayout"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="17dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="369dp"
         android:background="?android:selectableItemBackground"
-        app:srcCompat="@drawable/abouts1"
-        android:paddingRight="50dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="358dp"
-        android:layout_height="194dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="82dp"
-        android:background="@drawable/outline_button" />
+        android:paddingRight="50dp"
+        app:srcCompat="@drawable/abouts1" />
 
 
 </RelativeLayout>
