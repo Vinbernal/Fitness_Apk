@@ -14,10 +14,11 @@ import com.example.fitnessapp.dayfood.Day2;
 import com.example.fitnessapp.dayfood.Day3;
 import com.example.fitnessapp.dayfood.Day4;
 import com.example.fitnessapp.dayfood.Day5;
+import com.example.fitnessapp.dayfood.Day6;
 
 public class MainActivity2 extends AppCompatActivity implements View.OnClickListener {
 
-    public CardView card1, card2, card3, card4, card5;
+    public CardView card1, card2, card3, card4, card5, card6;
 
 
 
@@ -32,6 +33,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         card3 = (CardView) findViewById(R.id.c3);
         card4 = (CardView) findViewById(R.id.c4);
         card5 = (CardView) findViewById(R.id.c5);
+        card6 = (CardView) findViewById(R.id.c6);
 
 
 
@@ -40,6 +42,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         card3.setOnClickListener(this);
         card4.setOnClickListener(this);
         card5.setOnClickListener(this);
+        card6.setOnClickListener(this);
 
 
 
@@ -79,6 +82,10 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
             i = new Intent( this, Day5.class);
             startActivity(i);
             break;
+            case R.id.c6:
+                i = new Intent( this, Day6.class);
+                startActivity(i);
+                break;
 
 
 
