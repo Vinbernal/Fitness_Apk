@@ -78,7 +78,7 @@
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="83dp"
-        android:layout_above="@+id/linlayout"
+        android:layout_below="@+id/btnreminder"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="32dp"

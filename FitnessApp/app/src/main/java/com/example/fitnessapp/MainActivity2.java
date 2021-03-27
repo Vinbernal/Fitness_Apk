@@ -12,13 +12,15 @@ import androidx.cardview.widget.CardView;
 import com.example.fitnessapp.dayfood.Day1;
 import com.example.fitnessapp.dayfood.Day2;
 import com.example.fitnessapp.dayfood.Day3;
+import com.example.fitnessapp.dayfood.Day30;
 import com.example.fitnessapp.dayfood.Day4;
 import com.example.fitnessapp.dayfood.Day5;
 import com.example.fitnessapp.dayfood.Day6;
+import com.example.fitnessapp.dayfood.Day7;
 
 public class MainActivity2 extends AppCompatActivity implements View.OnClickListener {
 
-    public CardView card1, card2, card3, card4, card5, card6;
+    public CardView card1, card2, card3, card4, card5, card6, card7, card30;
 
 
 
@@ -34,6 +36,8 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         card4 = (CardView) findViewById(R.id.c4);
         card5 = (CardView) findViewById(R.id.c5);
         card6 = (CardView) findViewById(R.id.c6);
+        card7 = (CardView) findViewById(R.id.c7);
+        card30 = (CardView) findViewById(R.id.c30);
 
 
 
@@ -43,7 +47,8 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         card4.setOnClickListener(this);
         card5.setOnClickListener(this);
         card6.setOnClickListener(this);
-
+        card7.setOnClickListener(this);
+        card30.setOnClickListener(this);
 
 
 
@@ -84,6 +89,14 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
             break;
             case R.id.c6:
                 i = new Intent( this, Day6.class);
+                startActivity(i);
+                break;
+            case R.id.c7:
+                i = new Intent( this, Day7.class);
+                startActivity(i);
+                break;
+            case R.id.c30:
+                i = new Intent( this, Day30.class);
                 startActivity(i);
                 break;
 
