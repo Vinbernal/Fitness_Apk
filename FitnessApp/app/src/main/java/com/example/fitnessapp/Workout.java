@@ -19,7 +19,7 @@ public class Workout extends AppCompatActivity {
 
         //action bar title AND color
         getSupportActionBar().setTitle("Workout");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //button to new act
 

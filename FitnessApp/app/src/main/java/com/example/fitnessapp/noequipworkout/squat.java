@@ -26,7 +26,7 @@ public class squat extends AppCompatActivity {
         setContentView(R.layout.activity_squat);
 
         getSupportActionBar().setTitle("Squat Workout");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         t1 = findViewById(R.id.textView);

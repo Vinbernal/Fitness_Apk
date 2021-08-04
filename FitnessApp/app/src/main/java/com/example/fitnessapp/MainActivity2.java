@@ -55,7 +55,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
 
         //action bar title AND color
         getSupportActionBar().setTitle("30 Days Meal Planner");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 

@@ -26,7 +26,7 @@ public class Supermanplanks extends AppCompatActivity {
         setContentView(R.layout.activity_supermanplanks);
 
         getSupportActionBar().setTitle("Planks Workout");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 

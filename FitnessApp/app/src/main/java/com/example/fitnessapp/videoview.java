@@ -14,7 +14,7 @@ public class videoview extends AppCompatActivity {
         setContentView(R.layout.activity_videoview);
 
         getSupportActionBar().setTitle("30 Minutes Home Workout!");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }

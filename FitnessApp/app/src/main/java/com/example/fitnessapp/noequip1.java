@@ -24,7 +24,7 @@ public class noequip1 extends AppCompatActivity {
         setContentView(R.layout.activity_noequip1);
 
         getSupportActionBar().setTitle("Lunges Workout");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 

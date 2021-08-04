@@ -22,7 +22,7 @@
         android:layout_width="310dp"
         android:layout_height="360dp"
         android:layout_marginTop="20dp"
-        android:numbersSelectorColor="@color/soft_cyan"
+        android:numbersSelectorColor="#4267B2"
         android:headerBackground="@drawable/gradient" />
 
     <LinearLayout

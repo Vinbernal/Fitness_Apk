@@ -8,6 +8,17 @@
     tools:context=".MainActivity">
 
 
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="125dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/outline_button"
+        android:layout_height="450dp" />
+
     <LinearLayout
         android:id="@+id/linlayout"
         android:layout_width="wrap_content"
@@ -22,7 +33,7 @@
             android:layout_height="67dp"
             android:background="@drawable/outline_button"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/homes" />
+            app:srcCompat="@drawable/home111" />
 
         <ImageButton
             android:id="@+id/btnfood"
@@ -30,7 +41,7 @@
             android:layout_height="67dp"
             android:background="@drawable/outline_button"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/foodie" />
+            app:srcCompat="@drawable/food222" />
 
         <ImageButton
             android:id="@+id/btnmusic"
@@ -39,7 +50,7 @@
             android:background="@drawable/outline_button"
             android:contentDescription="TODO"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/music" />
+            app:srcCompat="@drawable/music333" />
 
         <ImageButton
             android:id="@+id/btnworkout"
@@ -47,7 +58,7 @@
             android:layout_height="67dp"
             android:background="@drawable/outline_button"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/workoutt" />
+            app:srcCompat="@drawable/workout444" />
 
         <ImageButton
             android:id="@+id/btnplanner"
@@ -55,7 +66,7 @@
             android:layout_height="67dp"
             android:background="@drawable/outline_button"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/planner" />
+            app:srcCompat="@drawable/planner555" />
     </LinearLayout>
 
     <Button
@@ -68,7 +79,6 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/outline3"
-        android:drawableTop="@drawable/ic_baseline_notifications_24"
         android:paddingTop="8dp"
         android:text="SET REMINDER HERE"
         android:textColor="@color/white"

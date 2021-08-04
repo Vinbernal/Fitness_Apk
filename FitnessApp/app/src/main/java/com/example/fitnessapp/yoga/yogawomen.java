@@ -16,7 +16,7 @@ public class yogawomen extends AppCompatActivity {
         setContentView(R.layout.activity_yogawomen);
 
         getSupportActionBar().setTitle("Women Yoga Workout");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 

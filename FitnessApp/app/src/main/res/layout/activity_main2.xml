@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fitfood"
+    android:background="@drawable/bg3"
     tools:context=".MainActivity2">
 
 
@@ -64,30 +64,32 @@
             android:layout_marginTop="10sp"
             android:layout_marginRight="10sp"
             android:layout_marginLeft="10sp"
-
             android:rowCount="3"
             android:columnCount="3">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/c1"
-                android:layout_gravity="fill"
+                android:layout_row="0"
                 android:layout_rowWeight="1"
+                android:layout_column="0"
                 android:layout_columnWeight="1"
-                app:cardCornerRadius="10sp"
-                android:layout_margin="10sp">
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                app:cardCornerRadius="10sp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Day 1"
-                    android:textSize="20sp"
-                    android:textAlignment="center"
                     android:layout_gravity="center"
                     android:paddingTop="30sp"
                     android:paddingBottom="30sp"
-                    android:textColor="#000"/>
+                    android:text="Day 1"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/c2"
                 android:layout_gravity="fill"

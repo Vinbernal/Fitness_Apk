@@ -28,7 +28,7 @@ public class NoEquipment extends AppCompatActivity {
         setContentView(R.layout.activity_no_equipment);
 
         getSupportActionBar().setTitle("No Equipment Workout");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //btn to lunges

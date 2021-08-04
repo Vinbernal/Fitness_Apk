@@ -39,7 +39,7 @@ public class Music extends AppCompatActivity {
 
         //action bar title AND color
         getSupportActionBar().setTitle("Music");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // casting listview

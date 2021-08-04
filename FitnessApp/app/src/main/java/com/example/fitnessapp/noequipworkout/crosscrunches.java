@@ -26,7 +26,7 @@ public class crosscrunches extends AppCompatActivity {
         setContentView(R.layout.activity_crosscrunches);
 
         getSupportActionBar().setTitle("Cross Crunches Workout");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         t1 = findViewById(R.id.textView);

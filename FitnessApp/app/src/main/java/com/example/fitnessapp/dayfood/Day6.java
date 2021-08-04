@@ -16,7 +16,7 @@ public class Day6 extends AppCompatActivity {
         setContentView(R.layout.activity_day6);
 
         getSupportActionBar().setTitle("Day 6 ");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }

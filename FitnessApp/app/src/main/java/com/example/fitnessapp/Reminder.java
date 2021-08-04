@@ -26,7 +26,7 @@ public class Reminder extends AppCompatActivity implements View.OnClickListener 
 
         //
         getSupportActionBar().setTitle("Reminder");
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff7f50")));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#4267B2")));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 // Set onClick Listener
