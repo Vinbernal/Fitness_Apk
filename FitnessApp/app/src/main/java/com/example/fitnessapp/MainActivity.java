@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
     private static int currentPage = 0;
     private static int NUM_PAGES = 0;
     private ArrayList<SlidingModel> imageModelArrayList;
-
+//sLIDESHOW
     private int[] myImageList = new int[]{R.drawable.fitnesswoman, R.drawable.example1,
-            R.drawable.example2, R.drawable.example3, R.drawable.example4 , R.drawable.example5  };
-
+        R.drawable.example3, R.drawable.example4 , R.drawable.example5  };
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
     //////////
     private ArrayList<SlidingModel> populateList() {
         ArrayList<SlidingModel> list = new ArrayList<>();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 4; i++) {
             SlidingModel imageModel = new SlidingModel();
             imageModel.setImage_drawable(myImageList[i]);
             list.add(imageModel);
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 handler.post(Update);
             }
-        }, 3000, 3000);
+        }, 6000, 6000);
     }
 
 
