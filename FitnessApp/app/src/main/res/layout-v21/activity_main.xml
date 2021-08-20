@@ -14,10 +14,9 @@
         android:id="@+id/pager"
         android:layout_marginLeft="22dp"
         android:layout_marginRight="22dp"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="135dp"
         android:layout_width="match_parent"
-        android:background="@drawable/outline_button"
-        android:layout_height="450dp" />
+        android:layout_height="420dp" />
 
     <LinearLayout
         android:id="@+id/linlayout"

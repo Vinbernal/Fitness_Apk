@@ -13,7 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessApp">
-        <activity android:name=".dayfood.Day29"></activity>
+        <activity android:name=".cardio.lowimpact"></activity>
+        <activity android:name=".cardio.bodyhit" />
+        <activity android:name=".cardioworkout" />
+        <activity android:name=".dayfood.Day29" />
         <activity android:name=".dayfood.Day28" />
         <activity android:name=".dayfood.Day27" />
         <activity android:name=".dayfood.Day26" />

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cardioworkout">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/cards"
+        android:fontFamily="sans-serif-black"
+        android:soundEffectsEnabled="true"
+        android:text="30 minute beginners workouts"
+        android:textAlignment="center"
+        android:textColor="#4267B2"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:background="@drawable/cardiobg"
+        android:fontFamily="sans-serif-black"
+        android:soundEffectsEnabled="true"
+        android:layout_marginTop="10dp"
+        android:gravity="top|center"
+        android:paddingLeft="15dp"
+        android:paddingTop="30dp"
+        android:text="30 MINUTE FULL BODY HIT"
+        android:textColor="#4267B2"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:background="@drawable/cardiobg1"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom|center"
+        android:paddingLeft="15dp"
+        android:paddingBottom="9dp"
+        android:text="Low Impact 30 minute cardio workout "
+        android:textColor="#4267B2"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

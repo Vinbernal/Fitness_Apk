@@ -11,14 +11,16 @@
         android:padding="10dp"
         tools:context=".NoEquipment">
 
+
+
         <Button
             android:id="@+id/button"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/lungess"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/lunges1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
-            android:text="Lunges"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
             android:textSize="60sp"
@@ -28,13 +30,13 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/pushupss"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/pushups1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
             android:layout_marginTop="10dp"
-            android:text="Push-ups"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
             android:textSize="60sp"
@@ -44,13 +46,13 @@
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/squats"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/squat1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
             android:layout_marginTop="10dp"
-            android:text="SQUAT"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
             android:textSize="60sp"
@@ -60,16 +62,17 @@
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/plankss"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+
+            android:background="@drawable/plank1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
             android:layout_marginTop="10dp"
-            android:text="SUPERMAN PLANKS"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
-            android:textSize="50sp"
+            android:textSize="55sp"
             android:textColorHighlight="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -77,13 +80,13 @@
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/burfeess"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/burfees1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
             android:layout_marginTop="10dp"
-            android:text="BURPEES"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
             android:textSize="50sp"
@@ -93,13 +96,13 @@
 
         <Button
             android:id="@+id/button7"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/jump"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/jump1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
             android:layout_marginTop="10dp"
-            android:text="JUMPING \n JACK"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
             android:textSize="50sp"
@@ -109,13 +112,13 @@
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/highkneess"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/highknees1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
             android:layout_marginTop="10dp"
-            android:text="HIGH KNEES"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
             android:textSize="50sp"
@@ -125,13 +128,13 @@
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/dives"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/dives1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
             android:layout_marginTop="10dp"
-            android:text="DIVE PUSHUPS"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
             android:textSize="50sp"
@@ -141,13 +144,13 @@
 
         <Button
             android:id="@+id/button10"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/climbers"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/climbers1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
             android:layout_marginTop="10dp"
-            android:text="MOUNTAIN CLIMBERS"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
             android:textSize="50sp"
@@ -157,13 +160,13 @@
 
         <Button
             android:id="@+id/button11"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/shouldertap"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/shouldertap1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
             android:layout_marginTop="10dp"
-            android:text="SHOULDER TAPS"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
             android:textSize="50sp"
@@ -173,13 +176,13 @@
 
         <Button
             android:id="@+id/button12"
-            android:layout_width="370dp"
-            android:layout_height="210dp"
-            android:background="@drawable/cross"
+            android:layout_width="350dp"
+            android:layout_height="215dp"
+            android:background="@drawable/cross1"
             android:fontFamily="sans-serif-black"
             android:soundEffectsEnabled="true"
             android:layout_marginTop="10dp"
-            android:text="Cross Crunches"
+
             android:textAlignment="center"
             android:textColor="#4267B2"
             android:textSize="50sp"

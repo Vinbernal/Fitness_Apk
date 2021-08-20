@@ -30,7 +30,7 @@ public class Workout extends AppCompatActivity {
         });
         Button buttonview = findViewById(R.id.button2);
         buttonview.setOnClickListener(view -> {
-            Intent intent = new Intent(this, videoview.class);
+            Intent intent = new Intent(this, cardioworkout.class);
             startActivity(intent);
         });
 
